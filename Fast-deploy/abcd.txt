@@ -1,0 +1,27 @@
+int g0/3
+switchport trunk native vlan 10
+switchport trunk allowed vlan 5,10,11
+switchport mode trunk
+
+int g0/4
+switchport trunk native vlan 10
+switchport trunk allowed vlan 5,10,11
+switchport mode trunk
+
+
+interface GigabitEthernet0/1
+ switchport trunk allowed vlan 5,10,11
+ switchport trunk native vlan 10
+ switchport mode trunk
+
+interface GigabitEthernet0/2
+
+interface GigabitEthernet0/3
+ switchport trunk allowed vlan 5,10,11
+ switchport trunk native vlan 10
+ switchport mode trunk
+
+interface GigabitEthernet0/4
+ switchport trunk allowed vlan 5,10,11
+ switchport trunk native vlan 10
+ switchport mode trunk
