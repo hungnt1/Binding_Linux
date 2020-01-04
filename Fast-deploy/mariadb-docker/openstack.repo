@@ -1,0 +1,50 @@
+
+cat <<EOF> /etc/yum.repos.d/rdo-release.repo
+[openstack-mitaka]
+name=OpenStack Octaca Repository
+baseurl=https://buildlogs.centos.org/centos/7/cloud/x86_64/openstack-newton/
+gpgcheck=0
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Cloud
+
+EOF
+
+cat <<EOF> /etc/yum.repos.d/rdo-release.repo
+[openstack-mitaka]
+name=OpenStack Octaca Repository
+baseurl=https://buildlogs.centos.org/centos/7/cloud/x86_64/openstack-ocata/
+gpgcheck=0
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Cloud
+
+EOF
+
+cat <<EOF> /etc/yum.repos.d/rdo-release.repo
+[openstack-mitaka]
+name=OpenStack Octaca Repository
+baseurl=https://buildlogs.centos.org/centos/7/cloud/x86_64/openstack-pike/
+gpgcheck=0
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Cloud
+
+EOF
+
+cat <<EOF> /etc/yum.repos.d/rdo-release.repo
+[openstack-mitaka]
+name=OpenStack Octaca Repository
+baseurl=https://buildlogs.centos.org/centos/7/cloud/x86_64/openstack-queens/
+gpgcheck=0
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Cloud
+
+EOF
+
+cat <<EOF> /etc/yum.repos.d/rdo-release.repo
+[openstack-mitaka]
+name=OpenStack Octaca Repository
+baseurl=https://buildlogs.centos.org/centos/7/cloud/x86_64/openstack-rocky/
+gpgcheck=0
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Cloud
+
+EOF
